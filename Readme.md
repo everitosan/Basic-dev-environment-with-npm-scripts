@@ -5,6 +5,9 @@ Uses **Jade**, **Saas**, **JS (ecma2015)**, with the help of *npm scripts*.
 ### Dev-Dependencies
  - npm
 
+### How to
+Just download the repo, move to the root directory in your terminal and run npm run develop
+
 ### Organization
 
  - app
@@ -29,3 +32,4 @@ The current tasks include **eslint** for a better js code.
 ### Todo
  - Integration for use with bower.
  - Migrate to a generator like yeoman.
+ - Production set of tasks
