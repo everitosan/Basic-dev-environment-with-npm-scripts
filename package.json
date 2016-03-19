@@ -11,7 +11,7 @@
     "jade": "./bin/jade",
     "images": "./bin/imagemin",
     "serve": "cd app/dist && browser-sync start --server --files 'css/*.css, js/*.js, *.html'",
-    "build:js": "npm run lint && cd app/dist && mkdir js && cd js && touch app.js && cd ../../../ &&npm run browserify",
+    "build:js": "npm run lint && cd app/dist && mkdir -p js && cd js && echo '' >> app.js && cd ../../../ &&npm run browserify",
     "watch:css": "onchange 'app/sass/**/*.sass' -- npm run sass",
     "watch:js": "onchange 'app/js/**/*.js' -- npm run build:js",
     "watch:jade": "onchange 'app/**/*.jade' -- npm run jade",
