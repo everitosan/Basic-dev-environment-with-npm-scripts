@@ -6,7 +6,11 @@ Uses **Jade**, **Saas**, **JS (ecma2015)**, with the help of *npm scripts*.
  - npm
 
 ### How to
-Just download the repo, move to the root directory in your terminal and run npm run develop
+Just download the repo, move to the root directory in your terminal and type
+
+```sh
+$ npm run develop
+```
 
 ### Organization
 
