@@ -9,6 +9,8 @@ Uses **Jade**, **Saas**, **JS (ecma2015)**, with the help of *npm scripts*.
 Just download the repo, move to the root directory in your terminal and type
 
 ```sh
+$ npm install
+....
 $ npm run develop
 ```
 
