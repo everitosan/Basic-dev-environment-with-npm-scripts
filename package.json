@@ -27,6 +27,7 @@
     "browser-sync": "^2.11.1",
     "browserify": "^13.0.0",
     "eslint": "^2.4.0",
+    "imagemin-cli": "^2.1.0",
     "jade-cli": "^0.1.1",
     "node-sass": "^3.4.2",
     "npm-run-all": "^1.6.0",
