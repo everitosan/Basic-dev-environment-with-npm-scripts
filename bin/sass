@@ -1,1 +1,1 @@
-node-sass -o app/dist/css app/sass
+node-sass -o app/dist/css app/sass/style.sass && node-sass -o app/dist/css app/sass/pages
